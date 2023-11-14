@@ -253,25 +253,29 @@ div#nav-tab {
     padding-top: 50px;
     padding-bottom: 30px;
 }
+
 .tittle-day span {
     color: #F8D14A;
 }
-.deals-bg{
-    background-color: #f7f7f7;    
+
+.deals-bg {
+    background-color: #f7f7f7;
     border-radius: 66px;
     padding: 20px;
     height: 400px;
 }
-.name-pro{
+
+.name-pro {
     color: #000;
     font-family: 'Oswald';
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130.5%; 
+    line-height: 130.5%;
     text-transform: uppercase;
 }
-.name-detal{
+
+.name-detal {
     color: #000;
     font-family: 'Poppins';
     font-size: 20px;
@@ -279,28 +283,31 @@ div#nav-tab {
     font-weight: 400;
     line-height: 130.5%;
 }
-.mrp-product{
+
+.mrp-product {
     color: #A1A1A1;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 130.5%; 
+    line-height: 130.5%;
     text-decoration-line: line-through;
 }
-.discount-prod{
+
+.discount-prod {
     color: #000;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130.5%; 
+    line-height: 130.5%;
     padding-bottom: 30px;
 }
-.secbybtn{
+
+.secbybtn {
     color: #FFF;
     text-align: center;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -310,6 +317,7 @@ div#nav-tab {
     padding: 15px 30px;
     text-decoration: none;
 }
+
 /* Countdown */
 .Countdown-ul {
     list-style: none;
@@ -319,17 +327,21 @@ div#nav-tab {
     background: #FFD84F;
     padding: 30px 0px;
 }
+
 .container.sec-bg-Countdown {
     margin-top: -410px;
 }
-.SECprod-day{
+
+.SECprod-day {
     position: relative;
     z-index: 99;
 }
-.sec-count-zz{
+
+.sec-count-zz {
     position: a;
     z-index: 999;
 }
+
 ul.Countdown-ul li span {
     color: #1C1E1E;
     font-family: 'Poppins';
@@ -338,6 +350,7 @@ ul.Countdown-ul li span {
     font-weight: 600;
     text-transform: uppercase;
 }
+
 ul.Countdown-ul li p {
     color: #1C1E1E;
     text-align: center;
@@ -346,4 +359,25 @@ ul.Countdown-ul li p {
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
+}
+.sec-youtub-text{
+    text-align: center;
+}
+.sec-youtub-text a{
+    color: #C4C4C4;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.owl-carousel.owl-theme.youtub.owl-loaded.owl-drag .owl-stage-outer {
+    padding: 30px 20px;
+}
+.item.sec-img-1 {
+    margin-top: -30px;
+}
+.item.sec-img-2 {
+    margin-top: 20px;
 }
