@@ -512,7 +512,7 @@ ul.Countdown-ul li p {
 }
 
 .gallery-thumbs {
-    height: 100%;
+    height: auto;
 }
 
 .gallery-thumbs .swiper-wrapper {
@@ -529,7 +529,7 @@ ul.Countdown-ul li p {
 .gallery-thumbs .swiper-slide img {
     filter: contrast(0.5) blur(1px);
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -571,7 +571,7 @@ ul.Countdown-ul li p {
 
 .testimonial-section .quote {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -589,13 +589,13 @@ ul.Countdown-ul li p {
 }
 
 .swiper-container.testimonial {
-    height: 100vh;
+    height: 65vh;
 }
 
 .testimonial-section .user-saying {
     width: 60%;
     color: #fff;
-    height: 100%;
+    height: auto;
 }
 
 .testi-user-img {
@@ -610,7 +610,7 @@ ul.Countdown-ul li p {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: auto;
     align-items: flex-start;
 }
 
