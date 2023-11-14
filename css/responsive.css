@@ -1,0 +1,50 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1720px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+  
+ .sec-menu-bgg {  
+    background-color: #000;
+}
+
+a.navbar-brand {
+  width: 66% !important;
+}
+button.navbar-toggler {
+  background: #ffff;
+}
+.sec-align-items {
+  align-items: normal;
+}
+  a.nav-link.px-4.text-light {
+    text-align: left;
+    padding: 10px 0px !important;
+}
+.sec-cont-btn {
+  color: #fff !important;
+  background: transparent;
+}
+}
+
