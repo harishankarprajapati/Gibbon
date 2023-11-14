@@ -233,3 +233,12 @@
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #EA544B;
 }
+#youtubslider .owl-dots {
+    display: none !important;
+}
+.youtub2  .owl-nav.disabled {
+    display: block;
+}
+.youtub2 .owl-dots{
+    display: none !important;
+}
