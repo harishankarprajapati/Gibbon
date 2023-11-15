@@ -584,8 +584,8 @@ ul.Countdown-ul li p {
     justify-content: center;
     padding-left: 100px;
     padding-right: 100px;
-    Justify-content:flex-start;
-    
+    Justify-content: flex-start;
+
 }
 
 .swiper-container.testimonial {
@@ -625,19 +625,19 @@ ul.Countdown-ul li p {
 
 .testimonial-section .quote h6 {
     color: #222;
-font-family: 'Poppins';
-font-size: 19.481px;
-font-style: normal;
-font-weight: 300;
-text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 19.481px;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .testimonial-section .quote h4 {
     color: #222;
-font-family: 'Poppins';
-font-size: 30px;
-font-style: italic;
-font-weight: 700;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .testimonial-section .quote p {
@@ -654,6 +654,44 @@ font-weight: 700;
     display: block;
     margin-bottom: 30px;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     background-color: #FFD84F;
+}
+
+/* tranding */
+.trend-bg {
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    padding:10px;
+}
+.tranding-name{
+    color: #5F5D82;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+.tranding-price{
+    color: #000;
+    font-family:'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.tranding-cart{
+    color: #5F5D82;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.insta-bg{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 190px;
 }
