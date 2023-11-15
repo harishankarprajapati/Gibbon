@@ -727,3 +727,22 @@ ul.Countdown-ul li p {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.footer2-bg {
+    background: #202020;
+    padding: 30px;
+}
+
+.iconf {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconf p i {
+    background-color: #fff !important;
+    color: #000;
+    font-size: 20.238px;
+    padding: 10px;
+    border-radius: 50px;
+}
