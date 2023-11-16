@@ -730,7 +730,7 @@ ul.Countdown-ul li p {
 
 .footer2-bg {
     background: #202020;
-    padding: 30px;
+    padding: 60px 30px;
 }
 
 .iconf {
@@ -745,4 +745,56 @@ ul.Countdown-ul li p {
     font-size: 20.238px;
     padding: 10px;
     border-radius: 50px;
+}
+
+.footer-prod {
+    color: #FFD84F;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.sec-brands {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.5%;
+    text-decoration: none;
+}
+
+#Verifycode button.btn.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #EA544B;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+#Verifycode input{
+    border-radius: 10px;
+}
+.footer3-bg{
+    background-color: #000;
+}
+.copy-sec{
+    color: #FFD84F;
+font-family: 'poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 0;
+padding-top: 14px;
+}
+.footer4-bg{
+    background: #202020;
+    padding: 20px;
 }
