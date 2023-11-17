@@ -65,40 +65,75 @@
     <div class="container-fluid p-0" id="innerpages">
         <div include-html="header.html" id="header-file"></div>
     </div>
-
-
-
-    <div class="container-fluid card-wrapper">
+<!-- dt -->
+    <div class="container-fluid card-wrapper pt-5 pb-5">
         <div class="left-right">
             <div class="row">
                 <div class="col-lg-5">
                     <div class="wrapper">
                         <div class="img-selection">
-                          <div class="img-thumbnail selected">
-                            <img src="images/cat-p1.png" width="100%">
-                          </div>
-                          <div class="img-thumbnail">
-                            <img src="images/cat-p2.png" width="100%">
-                          </div>
-                          <div class="img-thumbnail">
-                            <img src="images/cat-p3.png" width="100%">
-                          </div>
-                          <div class="img-thumbnail">
-                            <img src="images/cat-p2.png" width="100%">
-                          </div>
+                            <div class="img-thumbnail selected">
+                                <img src="images/cat-p1.png" width="100%">
+                            </div>
+                            <div class="img-thumbnail">
+                                <img src="images/cat-p2.png" width="100%">
+                            </div>
+                            <div class="img-thumbnail">
+                                <img src="images/cat-p3.png" width="100%">
+                            </div>
+                            <div class="img-thumbnail">
+                                <img src="images/cat-p2.png" width="100%">
+                            </div>
                         </div>
                         <div class="big-img">
                             <img src="images/cat-p1.png" class="display-img">
                         </div>
-                        
-                      </div>
+
+                    </div>
                 </div>
                 <div class="col-lg-7">
-                    htdhoipj
+                    <h2 class="dt-name">Creatine Monohydrate</h2>
+                    <h5 class="dt-fl">Flavored | 33 Servings</h5>
+                    <p class="dt-ser">Serving size 3g</p>
+                    <p class="dt-off">25% off</p>
+                    <p><span class="dt-mrp">Rs. 2,000.00</span> <span class="dt-sale"> Rs. 1,600.00 </span></p>
+                    <p class="dt-tex">Inclusive all taxes</p>
+                    <h5 class="dt-fl-qty">Flavors</h5>
+                    <p> <a class="st-fl-btn" href="#">Mango</a> <a class="st-fl-btn" href="#">Orange</a> <a
+                            class="st-fl-btn" href="#">Blueberry</a> <a class="st-fl-btn" href="#">Unflavored</a></p>
+                    <h5 class="dt-fl-qty">Select Serving Per Container</h5>
+                    <p> <a class="st-fl-btn" href="#">83</a> <a class="st-fl-btn" href="#">66</a> <a class="st-fl-btn" href="#">33</a> </p>
+                    <div class="QTY">
+                        <h5 class="dt-fl-qty">QTY</h5>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="qty-container">
+                                    <button class="qty-btn-minus btn-light" type="button"><i
+                                            class="fa fa-minus"></i></button>
+                                    <input type="text" name="qty" value="1" class="input-qty" />
+                                    <button class="qty-btn-plus btn-light" type="button"><i
+                                            class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><strong>Payment method :</strong> Online Payment</p>
+                    <div class="Add-cart pt-4 pb-4">
+                        <a class="add-cart-btn" href="#">Add to cart</a>
+                    </div>
+                    <div class="Buy-Now">
+                        <a class="buy-now-btn" href="#">Buy Now</a>
+                    </div>
                 </div>
             </div>
-</div>
-</div>
+        </div>
+    </div>
+
+<!-- Product Description -->
+
+
+
+
 
 
 
@@ -119,49 +154,71 @@
     <script src="js/include-html.min.js"></script>
 
 
-<!-- new -->
-<script>
-    var thumbs = $('.img-selection').find('img');
+    <!-- new -->
+    <script>
+        var thumbs = $('.img-selection').find('img');
 
-thumbs.click(function(){
-  var src = $(this).attr('src');
-  var dp = $('.display-img');
-  var img = $('.zoom');
-  dp.attr('src', src);
-  img.attr('src', src);
-});
+        thumbs.click(function () {
+            var src = $(this).attr('src');
+            var dp = $('.display-img');
+            var img = $('.zoom');
+            dp.attr('src', src);
+            img.attr('src', src);
+        });
 
-$(".img-thumbnail").click(function(){
-  $('.img-thumbnail').removeClass('selected');
-  $(this).addClass('selected');
-});
+        $(".img-thumbnail").click(function () {
+            $('.img-thumbnail').removeClass('selected');
+            $(this).addClass('selected');
+        });
 
-var zoom = $('.big-img').find('img').attr('src');
-$('.big-img').append('<img class="zoom" src="'+zoom+'">');
-$('.big-img').mouseenter(function(){
-  $(this).mousemove(function(event){
-    var offset = $(this).offset();
-    var left = event.pageX - offset.left;
-    var top = event.pageY - offset.top;
-    
-    $(this).find('.zoom').css({
-      width: '200%',
-      opacity: 1,
-      left: -left,
-      top: -top,
-    });
-  });
-});
+        var zoom = $('.big-img').find('img').attr('src');
+        $('.big-img').append('<img class="zoom" src="' + zoom + '">');
+        $('.big-img').mouseenter(function () {
+            $(this).mousemove(function (event) {
+                var offset = $(this).offset();
+                var left = event.pageX - offset.left;
+                var top = event.pageY - offset.top;
 
-$('.big-img').mouseleave(function(){
-  $(this).find('.zoom').css({
-    width: '100%',
-    opacity: 0,
-    left: 0,
-    top: 0,
-  });
-});
-</script>
+                $(this).find('.zoom').css({
+                    width: '200%',
+                    opacity: 1,
+                    left: -left,
+                    top: -top,
+                });
+            });
+        });
+
+        $('.big-img').mouseleave(function () {
+            $(this).find('.zoom').css({
+                width: '100%',
+                opacity: 0,
+                left: 0,
+                top: 0,
+            });
+        });
+    </script>
+    <!-- Quantity -->
+    <script>
+        var buttonPlus = $(".qty-btn-plus");
+        var buttonMinus = $(".qty-btn-minus");
+
+        var incrementPlus = buttonPlus.click(function () {
+            var $n = $(this)
+                .parent(".qty-container")
+                .find(".input-qty");
+            $n.val(Number($n.val()) + 1);
+        });
+
+        var incrementMinus = buttonMinus.click(function () {
+            var $n = $(this)
+                .parent(".qty-container")
+                .find(".input-qty");
+            var amount = Number($n.val());
+            if (amount > 0) {
+                $n.val(amount - 1);
+            }
+        });
+    </script>
 </body>
 
 </html>
