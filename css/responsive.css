@@ -110,10 +110,66 @@ button.nav-link {
   border-radius: 20px;
   text-align: center;
 }
+.sec-all-pro {
+  padding-bottom: 30px;
+}
+div#accordionFlushExample {
+  padding-top: 30px;
+}
 
-
-
-
+.big-img {
+  width: 100%;
+  height: 330px;
+}
+.img-thumbnail {
+  margin: 0px 2px;
+}
+.img-selection {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  display: flex;
+  padding: 10px 0px;
+}.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.dt-name {
+  font-size: 25px;
+}
+.dt-fl {
+  font-size: 16px;
+}
+.mrptosale{
+  display: flex;
+  flex-direction: column;
+}
+.dt-sale {
+  font-size: 30px;
+}
+.st-fl-btn {
+  margin: 5px 5px;
+}
+.fl-all-btn-padd{
+  display: flex;
+    flex-wrap: wrap;
+}
+.add-cart-btn  {
+  padding: 8px 60px;
+}
+.buy-now-btn {
+  padding: 8px 79px;
+}
+.left-right {
+  padding: 0px 10px;
+}
+.p-Description .nav-tabs .nav-link.active {
+  font-size: 18px;
+}
+.sec-relatrd {
+  font-size: 25px;
+}
 
 
 
