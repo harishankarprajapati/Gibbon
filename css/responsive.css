@@ -170,7 +170,25 @@ div#accordionFlushExample {
 .sec-relatrd {
   font-size: 25px;
 }
-
+.testimonial-section{
+  display: flex;
+  flex-direction: column;
+}
+.testi-user-img , .testimonial-section .user-saying {
+  width: 100%;
+}
+.testimonial-section .quote{
+  padding:0px !important;
+}
+.testimonial-section .quote h3 {
+  font-size: 25px;
+}
+.testimonial-section .quote h4 {
+  font-size: 20px;
+}
+.testimonial-section .quote p{
+  font-size: 18px;
+}
 
 
  .sec-menu-bgg {  
