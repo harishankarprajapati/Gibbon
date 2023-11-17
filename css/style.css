@@ -1106,11 +1106,13 @@ button.qty-btn-plus.btn-light {
     line-height: normal;
     text-transform: uppercase;
 }
+
 .add-cart-btn:hover {
     color: #fff;
     background: #EA544B;
 }
-.buy-now-btn{
+
+.buy-now-btn {
     border: 1px solid #EA544B;
     color: #fff;
     background: #EA544B;
@@ -1125,8 +1127,46 @@ button.qty-btn-plus.btn-light {
     line-height: normal;
     text-transform: uppercase;
 }
-.buy-now-btn:hover{
+
+.buy-now-btn:hover {
     color: #000;
     background: #fff;
     border: 1px solid #EA544B;
+}
+
+.left-right {
+    padding: 0px 30px;
+}
+
+.p-Description div#nav-tab {
+    justify-content: flex-start;
+    border: 0;
+}
+
+.p-Description .nav-tabs .nav-link.active {
+    border: 1px solid #CC0D1D;
+    background: #FFF;
+    background: #f4f4f4;
+    border-radius: 0;
+    border-bottom: 0px;
+    color: #CC0D1D;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.p-Description div#nav-tabContent {
+    border: 1px solid #CC0D1D !important;
+    background: #f4f4f4;
+    margin-top: 2px;
+}
+.sec-relatrd{
+    color: #000;
+font-family: 'Poppins';
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
 }
