@@ -192,6 +192,19 @@ div#accordionFlushExample {
 .sec-hero-bg{
   background-image: url(../images/bgg-home.png);
 }
+.item.sec-img-2 {
+  margin-top: 0px;
+}
+.item.sec-img-1 {
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
 
  .sec-menu-bgg {  
     background-color: #000;
