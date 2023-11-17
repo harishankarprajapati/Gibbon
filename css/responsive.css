@@ -189,7 +189,9 @@ div#accordionFlushExample {
 .testimonial-section .quote p{
   font-size: 18px;
 }
-
+.sec-hero-bg{
+  background-image: url(../images/bgg-home.png);
+}
 
  .sec-menu-bgg {  
     background-color: #000;
@@ -212,5 +214,13 @@ button.navbar-toggler {
   color: #fff !important;
   background: transparent;
 }
+
+
+
+
+
+
+
+
 }
 
