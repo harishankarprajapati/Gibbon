@@ -6,7 +6,9 @@
 .sec-bt {
     display: flex;
 }
-
+.mobile-logo{
+    display: none !important;
+}
 .search-field {
     background-color: transparent;
     background-image: url(../images/search-icon.png);
@@ -251,7 +253,6 @@ div#nav-tab {
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
-    line-height: 90%;
     text-transform: uppercase;
     text-align: center;
     padding-top: 50px;
