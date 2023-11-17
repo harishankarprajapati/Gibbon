@@ -70,74 +70,33 @@
 
     <div class="container-fluid card-wrapper">
         <div class="left-right">
-            <div class="card2">
-                <!-- card left -->
-                <div class="product-imgs">
-                    <div class="img-display">
-                        <div class="img-showcase">
-                            <img src="images/cat-p1.png" alt="shoe image">
-                            <img src="images/cat-p2.png"   alt="shoe image">
-                            <img src="images/cat-p3.png"   alt="shoe image">
-                            <img src="images/cat-p1.png"   alt="shoe image">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="wrapper">
+                        <div class="img-selection">
+                          <div class="img-thumbnail selected">
+                            <img src="images/cat-p1.png" width="100%">
+                          </div>
+                          <div class="img-thumbnail">
+                            <img src="images/cat-p2.png" width="100%">
+                          </div>
+                          <div class="img-thumbnail">
+                            <img src="images/cat-p3.png" width="100%">
+                          </div>
+                          <div class="img-thumbnail">
+                            <img src="images/cat-p2.png" width="100%">
+                          </div>
                         </div>
-                    </div>
-                    <div class="img-select">
-                        <div class="img-item">
-                            <a href="#" data-id="1">
-                                <img src="images/cat-p1.png" alt="shoe image">
-                            </a>
+                        <div class="big-img">
+                            <img src="images/cat-p1.png" class="display-img">
                         </div>
-                        <div class="img-item">
-                            <a href="#" data-id="2">
-                                <img src="images/cat-p2.png"  alt="shoe image">
-                            </a>
-                        </div>
-                        <div class="img-item">
-                            <a href="#" data-id="3">
-                                <img src="images/cat-p3.png" alt="shoe image">
-                            </a>
-                        </div>
-                        <div class="img-item">
-                            <a href="#" data-id="4">
-                                <img src="images/cat-p1.png"  alt="shoe image">
-                            </a>
-                        </div>
-                    </div>
+                        
+                      </div>
                 </div>
-                <!-- card right -->
-                <div class="product-content">
-                    <h2 class="product-title">Creatine Monohydrate</h2>
-                    <p class="product-link">Flavored | 33 Servings</p>
-                 
-
-                    <div class="product-price">
-                        <p class="last-price">Old Price: <span>$257.00</span></p>
-                        <p class="new-price">New Price: <span>$249.00 (5%)</span></p>
-                    </div>
-
-                    <div class="product-detail">
-                        <h2>about this item: </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga
-                            tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi
-                            ipsa!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius.
-                            Dignissimos, labore suscipit. Unde.</p>
-                   
-                    </div>
-
-                    <div class="purchase-info">
-                        <input type="number" min="0" value="1">
-                        <button type="button" class="btn">
-                            Add to Cart <i class="fas fa-shopping-cart"></i>
-                        </button>
-                        <button type="button" class="btn">Compare</button>
-                    </div>
-
-
+                <div class="col-lg-7">
+                    htdhoipj
                 </div>
             </div>
-        </div>
-    </div>
 
 
 
@@ -157,29 +116,51 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js" type="text/javascript"></script>
     <script src="js/include-html.min.js"></script>
-<script>
-    const imgs = document.querySelectorAll('.img-select a');
-const imgBtns = [...imgs];
-let imgId = 1;
 
-imgBtns.forEach((imgItem) => {
-    imgItem.addEventListener('click', (event) => {
-        event.preventDefault();
-        imgId = imgItem.dataset.id;
-        slideImage();
-    });
+
+<!-- new -->
+<script>
+    var thumbs = $('.img-selection').find('img');
+
+thumbs.click(function(){
+  var src = $(this).attr('src');
+  var dp = $('.display-img');
+  var img = $('.zoom');
+  dp.attr('src', src);
+  img.attr('src', src);
 });
 
-function slideImage(){
-    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+$(".img-thumbnail").click(function(){
+  $('.img-thumbnail').removeClass('selected');
+  $(this).addClass('selected');
+});
 
-    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
-}
+var zoom = $('.big-img').find('img').attr('src');
+$('.big-img').append('<img class="zoom" src="'+zoom+'">');
+$('.big-img').mouseenter(function(){
+  $(this).mousemove(function(event){
+    var offset = $(this).offset();
+    var left = event.pageX - offset.left;
+    var top = event.pageY - offset.top;
+    
+    $(this).find('.zoom').css({
+      width: '200%',
+      opacity: 1,
+      left: -left,
+      top: -top,
+    });
+  });
+});
 
-window.addEventListener('resize', slideImage);
+$('.big-img').mouseleave(function(){
+  $(this).find('.zoom').css({
+    width: '100%',
+    opacity: 0,
+    left: 0,
+    top: 0,
+  });
+});
 </script>
-
-
 </body>
 
 </html>
