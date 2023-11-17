@@ -22,7 +22,8 @@
 }
 @media only screen and (max-width:1300px){
   a.nav-link.px-4.text-light {
-    font-size: 13px;
+    font-size: 15px;
+    padding: 17px !important;
   }
   .big-img {
     width: 398px;
@@ -31,6 +32,7 @@
 @media only screen and (max-width:1199px){
   a.nav-link.px-4.text-light {
     font-size: 12px;
+    padding: 7px !important;
   }
   .sec-her-col-padding h1 {
     font-size: 90px;
@@ -340,7 +342,7 @@ button.navbar-toggler {
 
 
 @media only screen and (max-width:575px){
-#eapps-instagram-feed-1 {
-  width: 61% !important;
+  #eapps-instagram-feed-1 {
+    width: 100% !important;
 }
 }
