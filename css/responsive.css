@@ -109,6 +109,7 @@ button.nav-link {
 .trend-bg {
   border-radius: 20px;
   text-align: center;
+  padding-top: 20px;
 }
 .sec-all-pro {
   padding-bottom: 30px;
@@ -116,7 +117,12 @@ button.nav-link {
 div#accordionFlushExample {
   padding-top: 30px;
 }
-
+.swiper-container.testimonial {
+  height: 50vh;
+}
+.tranding-price {
+  font-size: 30px;
+}
 .big-img {
   width: 100%;
   height: auto;
