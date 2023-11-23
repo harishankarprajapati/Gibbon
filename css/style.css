@@ -230,7 +230,9 @@ div#nav-tab {
     background-color: #EA544B;
     padding: 10px 2px;
 }
-
+.product-cart-icon:hover{
+    background-color: #fa1105;
+}
 .prodict-icons {
     padding: 3px 22px;
     font-size: 30px;
@@ -239,6 +241,9 @@ div#nav-tab {
 
 .prodict-icons i {
     color: #fff;
+}
+.se-foter-prod{
+    padding-left: 70px;
 }
 
 .sec-cart-main-box {
@@ -321,6 +326,9 @@ div#nav-tab {
     background: #EA544B;
     padding: 15px 30px;
     text-decoration: none;
+}
+.secbybtn:hover{
+    background: #ee2e24;
 }
 
 /* Countdown */
@@ -695,7 +703,9 @@ ul.Countdown-ul li p {
     font-weight: 500;
     text-decoration: none;
 }
-
+.tranding-cart:hover{
+    color: #4238fc;
+}
 .insta-bg {
     background-image: url(../images/footer-bg.png);
     background-repeat: no-repeat;
