@@ -170,6 +170,10 @@ a.nav-link.px-4.text-light {
 button.nav-link {
   font-size: 18px;
 }
+.footer-prod {
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
 #innerpages li a.nav-link.px-4.text-light , #innerpages .sec-cart{
   color: #fff !important;
 }
@@ -352,6 +356,12 @@ button.navbar-toggler {
 }
 .se-foter-prod{
   padding-left: 0px;
+}
+.secpaydiv{
+  text-align: center !important;
+}
+.footer3-bg {
+  text-align: center;
 }
 }
 
