@@ -144,7 +144,7 @@ a.nav-link.px-4.text-light {
   padding-left: 20px;
 }
 .sec-her-col-padding h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
 .sec-her-col-padding p {
     font-size: 20px;
@@ -168,7 +168,7 @@ a.nav-link.px-4.text-light {
   display: none;
 }
 button.nav-link {
-  font-size: 10px;
+  font-size: 18px;
 }
 #innerpages li a.nav-link.px-4.text-light , #innerpages .sec-cart{
   color: #fff !important;

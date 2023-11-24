@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="sec-her-col-padding">
-                    <h1>Whey <br>
+                    <h1>Whey
                         Protein<br>
                         Powder</h1>
                     <p>Best workout recovery choice</p>
@@ -94,22 +94,46 @@
         <div class="card border-0 sec-tab-border-bg">
             <nav>
                 <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
-                        type="button" role="tab" aria-controls="nav-all" aria-selected="true">all</button>
-                    <button class="nav-link" id="nav-fat-tab" data-bs-toggle="tab" data-bs-target="#nav-fat"
+
+                    <div class="owl-carousel owl-theme tabhome">
+                        <div class="item">
+                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
+                            type="button" role="tab" aria-controls="nav-all" aria-selected="true">all</button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-fat-tab" data-bs-toggle="tab" data-bs-target="#nav-fat"
                         type="button" role="tab" aria-controls="nav-fat" aria-selected="false">Fat Burners</button>
-                    <button class="nav-link" id="nav-muscle-tab" data-bs-toggle="tab" data-bs-target="#nav-muscle"
-                        type="button" role="tab" aria-controls="nav-muscle" aria-selected="false">muscle
-                        Building</button>
-                    <button class="nav-link" id="nav-wellness-tab" data-bs-toggle="tab" data-bs-target="#nav-wellness"
-                        type="button" role="tab" aria-controls="nav-wellness" aria-selected="false">wellness</button>
-                    <button class="nav-link" id="nav-pre-tab" data-bs-toggle="tab" data-bs-target="#nav-pre"
-                        type="button" role="tab" aria-controls="nav-pre" aria-selected="false">pre-workout</button>
-                    <button class="nav-link" id="nav-post-tab" data-bs-toggle="tab" data-bs-target="#nav-post"
-                        type="button" role="tab" aria-controls="nav-post" aria-selected="false">post-workout
-                    </button>
-                    <button class="nav-link" id="nav-protein-tab" data-bs-toggle="tab" data-bs-target="#nav-protein"
-                        type="button" role="tab" aria-controls="nav-protein" aria-selected="false">protein</button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-muscle-tab" data-bs-toggle="tab" data-bs-target="#nav-muscle"
+                            type="button" role="tab" aria-controls="nav-muscle" aria-selected="false">muscle
+                            Building</button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-wellness-tab" data-bs-toggle="tab" data-bs-target="#nav-wellness"
+                            type="button" role="tab" aria-controls="nav-wellness" aria-selected="false">wellness</button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-pre-tab" data-bs-toggle="tab" data-bs-target="#nav-pre"
+                            type="button" role="tab" aria-controls="nav-pre" aria-selected="false">pre-workout</button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-post-tab" data-bs-toggle="tab" data-bs-target="#nav-post"
+                            type="button" role="tab" aria-controls="nav-post" aria-selected="false">post-workout
+                        </button>
+                        </div>
+                        <div class="item">
+                            <button class="nav-link" id="nav-protein-tab" data-bs-toggle="tab" data-bs-target="#nav-protein"
+                            type="button" role="tab" aria-controls="nav-protein" aria-selected="false">protein</button>
+                    </div>
+                    </div>
+                   
+                    
+                  
+                   
+                   
+                   
+              
                 </div>
             </nav>
             <div class="tab-content p-3" id="nav-tabContent">
@@ -1144,6 +1168,27 @@
     <!--tabber  -->
     <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
     <script>
+               $('.owl-carousel.tabhome').owlCarousel({
+            loop: false,
+            margin: 30,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 7
+                },
+                1100: {
+                    items: 7
+                }
+            }
+        })
+
 
 
         $('.owl-carousel.youtub2').owlCarousel({

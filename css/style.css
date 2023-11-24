@@ -162,11 +162,16 @@ button.nav-link {
     color: #000;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    padding: 0px;
+}
+button.nav-link:hover {
+    color: #000 !important;
+    border: 0px;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -1206,4 +1211,10 @@ marquee.html-marquee {
 }
 ul.list-group.list-group-flush {
     padding-top: 20px;
+}
+
+.tabhome .item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
