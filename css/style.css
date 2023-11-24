@@ -1180,3 +1180,30 @@ font-style: normal;
 font-weight: 700;
 text-align: center;
 }
+.tabb .owl-nav {
+    font-size: 40px;
+    margin-top: -286px;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 290px;
+}
+.tabb button.owl-next{
+float: right;
+padding: 0px 10px 10px 10px !important;
+background:#EA544B !important;
+color: #fff !important;
+}
+.tabb button.owl-prev{
+    padding: 0px 10px 10px 10px !important;
+    background:#EA544B !important;
+    color: #fff !important;
+}
+.tabb button.owl-prev:hover , .tabb button.owl-next:hover{
+background: red !important;
+}
+marquee.html-marquee {
+    padding: 10px 0px 5px 0px;
+}
+ul.list-group.list-group-flush {
+    padding-top: 20px;
+}

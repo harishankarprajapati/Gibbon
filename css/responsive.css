@@ -10,11 +10,20 @@
     width: 585px;
     height: 620px;
   }
+  a.nav-link.px-4.text-light {
+    font-size: 20px  !important;
+  }
+  .sec-her-col-padding h1 {
+    font-size: 125px;
+  }
 }
+
 @media only screen and (max-width:1400px){
+  
   a.nav-link.px-4.text-light {
     font-size: 15px;
   }
+  
   .big-img {
     position: relative;
     width: 406px;
@@ -28,8 +37,10 @@
   .big-img {
     width: 398px;
   }
+  
 }
 @media only screen and (max-width:1199px){
+
   a.nav-link.px-4.text-light {
     font-size: 12px;
     padding: 7px !important;
@@ -45,6 +56,7 @@
 }
 }
 @media only screen and (max-width:1090px){
+  
   .big-img {
     width: 287px;
     height: 350px
